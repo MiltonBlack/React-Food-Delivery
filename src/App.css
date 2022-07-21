@@ -23,3 +23,15 @@ html {
   scroll-padding-top: 5.5rem;
   scroll-behavior: smooth;
 }
+
+@media (max-width:991px) {
+  html {
+    font-size: 4px;
+  }
+}
+
+@media (max-width:991px) {
+  html {
+    font-size: 5px;
+  }
+}
