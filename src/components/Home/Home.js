@@ -15,6 +15,7 @@ const Home = () => {
             spaceBetween={50}
             slidesPerView={1}
             // autoplay={(delay)=>delay(2500)}
+            loop={true}
             onChange={() => console.log('slide')}
             onSwiper={(swiper)=> console.log(swiper)}>
               <SwiperSlide className='slider'>
