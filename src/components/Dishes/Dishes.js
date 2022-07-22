@@ -12,7 +12,7 @@ const Dishes = () => {
             <div className='box'>
                 <a href='#' className=''><GiHeartDrop className='heart'/></a>
                 <a href='#' className=''><FaEye className='eye'/></a>
-                <img src='/img/discount.svg' alt='' height='200px'/>
+                <img src='/Picture/chicken-1.jpeg' alt='' height='200px'/>
                 <h3>tasty Foods</h3>
                 <div className='stars'>
                     <FaStar/>
@@ -27,7 +27,7 @@ const Dishes = () => {
             <div className='box'>
                 <a href='#' className=''><GiHeartDrop className='heart'/></a>
                 <a href='#' className=''><FaEye className='eye'/></a>
-                <img src='/img/discount.svg' alt='' height='200px'/>
+                <img src='/Picture/chin-chin.jpeg' alt='' height='200px'/>
                 <h3>tasty Foods</h3>
                 <div className='stars'>
                     <FaStar/>
@@ -42,7 +42,7 @@ const Dishes = () => {
             <div className='box'>
                 <a href='#' className=''><GiHeartDrop className='heart'/></a>
                 <a href='#' className=''><FaEye className='eye'/></a>
-                <img src='/img/discount.svg' alt='' height='200px'/>
+                <img src='/Picture/drinks.jpeg' alt='' height='200px'/>
                 <h3>tasty Foods</h3>
                 <div className='stars'>
                     <FaStar/>
@@ -57,7 +57,7 @@ const Dishes = () => {
             <div className='box'>
                 <a href='#' className=''><GiHeartDrop className='heart'/></a>
                 <a href='#' className=''><FaEye className='eye'/></a>
-                <img src='/img/discount.svg' alt='' height='200px'/>
+                <img src='/Picture/snacks-1.jpeg' alt='' height='200px'/>
                 <h3>tasty Foods</h3>
                 <div className='stars'>
                     <FaStar/>
@@ -72,7 +72,7 @@ const Dishes = () => {
             <div className='box'>
                 <a href='#' className=''><GiHeartDrop className='heart'/></a>
                 <a href='#' className=''><FaEye className='eye'/></a>
-                <img src='/img/discount.svg' alt='' height='200px'/>
+                <img src='/Picture/chicken.jpeg' alt='' height='200px'/>
                 <h3>tasty Foods</h3>
                 <div className='stars'>
                     <FaStar/>
@@ -87,7 +87,7 @@ const Dishes = () => {
             <div className='box'>
                 <a href='#' className=''><GiHeartDrop className='heart'/></a>
                 <a href='#' className=''><FaEye className='eye'/></a>
-                <img src='/img/discount.svg' alt='' height='200px'/>
+                <img src='/Picture/chips.jpeg' alt='' height='200px'/>
                 <h3>tasty Foods</h3>
                 <div className='stars'>
                     <FaStar/>
