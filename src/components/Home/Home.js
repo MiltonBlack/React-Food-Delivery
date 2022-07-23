@@ -1,9 +1,12 @@
 import React from 'react'
 import './Home.css'
-// import Navbar from '../Navbar/Navbar'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay} from 'swiper'
 import 'swiper/css'
-// import './swiper/swiper-bundle.css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import 'swiper/css/scrollbar'
+
 
 const Home = () => {
   return (
@@ -12,9 +15,9 @@ const Home = () => {
           <div className='container'>
             <Swiper 
             className='wrapper'
+            modules={[ Navigation, Pagination, Scrollbar, A11y, Autoplay ]}
             spaceBetween={50}
             slidesPerView={1}
-            // autoplay={(delay)=>delay(2500)}
             loop={true}
             onChange={() => console.log('slide')}
             onSwiper={(swiper)=> console.log(swiper)}>
