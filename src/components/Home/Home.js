@@ -18,7 +18,9 @@ const Home = () => {
             modules={[ Navigation, Pagination, Scrollbar, A11y, Autoplay ]}
             spaceBetween={50}
             slidesPerView={1}
-            loop={true}
+            navigation
+            pagination={{ clickable: true }}
+            autoplay={{delay:3000}}
             onChange={() => console.log('slide')}
             onSwiper={(swiper)=> console.log(swiper)}>
               <SwiperSlide className='slider'>
@@ -29,7 +31,29 @@ const Home = () => {
                   <a href='#' className='btn'>Order Now</a>
                 </div>
                 <div className='image'>
-                  <img src='/img/discount.svg' alt='' height='400px'/>
+                  <img src='/img/chefwithtray.svg' alt='' height='400px'/>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className='slider'>
+                <div className='content'>
+                  <span>Our Special Dishes</span>
+                  <h3>Spicy Noodles</h3>
+                  <p>Sonia's Kitchen, a place where you access different kinds of delicious meals.</p>
+                  <a href='#' className='btn'>Order Now</a>
+                </div>
+                <div className='image'>
+                  <img src='/img/lemburger.svg' alt=''/>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className='slider'>
+                <div className='content'>
+                  <span>Our Special Dishes</span>
+                  <h3>Spicy Noodles</h3>
+                  <p>Sonia's Kitchen, a place where you access different kinds of delicious meals.</p>
+                  <a href='#' className='btn'>Order Now</a>
+                </div>
+                <div className='image'>
+                  <img src='/img/salmon.svg' alt=''/>
                 </div>
               </SwiperSlide>
               <SwiperSlide className='slider'>
@@ -51,7 +75,18 @@ const Home = () => {
                   <a href='#' className='btn'>Order Now</a>
                 </div>
                 <div className='image'>
-                  <img src='/img/discount.svg' alt=''/>
+                  <img src='/img/potians.svg' alt=''/>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className='slider'>
+                <div className='content'>
+                  <span>Our Special Dishes</span>
+                  <h3>Spicy Noodles</h3>
+                  <p>Sonia's Kitchen, a place where you access different kinds of delicious meals.</p>
+                  <a href='#' className='btn'>Order Now</a>
+                </div>
+                <div className='image'>
+                  <img src='/img/Gerald.svg' alt=''/>
                 </div>
               </SwiperSlide>
               ...

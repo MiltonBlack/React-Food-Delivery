@@ -68,7 +68,7 @@ const Menu = () => {
             </div>
             <div className='box'>
                 <div className='image'>
-                    <img src='/Picture/fried-food.jpeg' alt='' height='250px'/>
+                    <img src='/Picture/b-chiken.jpeg' alt='' height='250px'/>
                     <a href='#' className=''><FaHeart/></a>
                 </div>
                 <div className='content'>
@@ -87,7 +87,7 @@ const Menu = () => {
             </div>
             <div className='box'>
                 <div className='image'>
-                    <img src='/Picture/fried-food.jpeg' alt='' height='250px'/>
+                    <img src='/Picture/pizza.jpeg' alt='' height='250px'/>
                     <a href='#' className=''><FaHeart/></a>
                 </div>
                 <div className='content'>
@@ -106,7 +106,7 @@ const Menu = () => {
             </div>
             <div className='box'>
                 <div className='image'>
-                    <img src='/Picture/fried-food.jpeg' alt='' height='250px'/>
+                    <img src='/Picture/fried-r.jpeg' alt='' height='250px'/>
                     <a href='#' className=''><FaHeart/></a>
                 </div>
                 <div className='content'>
@@ -125,7 +125,7 @@ const Menu = () => {
             </div>
             <div className='box'>
                 <div className='image'>
-                    <img src='/Picture/fried-food.jpeg' alt='' height='250px'/>
+                    <img src='/Picture/burger.jpeg' alt='' height='250px'/>
                     <a href='#' className=''><FaHeart/></a>
                 </div>
                 <div className='content'>
@@ -144,7 +144,7 @@ const Menu = () => {
             </div>
             <div className='box'>
                 <div className='image'>
-                    <img src='/Picture/fried-food.jpeg' alt='' height='250px'/>
+                    <img src='/Picture/jollof.jpeg' alt='' height='250px'/>
                     <a href='#' className=''><FaHeart/></a>
                 </div>
                 <div className='content'>
@@ -163,7 +163,7 @@ const Menu = () => {
             </div>
             <div className='box'>
                 <div className='image'>
-                    <img src='/Picture/fried-food.jpeg' alt='' height='250px'/>
+                    <img src='/Picture/indomie.jpeg' alt='' height='250px'/>
                     <a href='#' className=''><FaHeart/></a>
                 </div>
                 <div className='content'>

@@ -35,3 +35,18 @@ html {
     font-size: 5px;
   }
 }
+
+.loading {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:50%;
+  left:45%;
+}
+.ovalay {
+  background-color: white;
+  height: 100vh;
+}
